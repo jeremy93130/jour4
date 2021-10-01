@@ -77,3 +77,10 @@ function format(num) {
 format(3700)
 
 // Bonus
+
+function generatedPassword (num) {
+    var randomString = num + (Math.random().toString(num).slice(-8)) 
+    // }console.log(randomString)
+
+// generatedPassword("maisouetdoncornicar")
+}
